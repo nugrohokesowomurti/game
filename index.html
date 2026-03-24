@@ -14,25 +14,25 @@
         <button id="upBtn"
                 onmousedown="keys.w = true"
                 onmouseup="keys.w = false"
-                ontouchstart="keys.w = true"
-                ontouchend="keys.w = false">▲</button>
+                ontouchstart="event.preventDefault(); keys.w = true"
+                ontouchend="event.preventDefault(); keys.w = false">▲</button>
         <br>
         <button id="rightBtn" 
                 onmousedown="keys.d = true"
                 onmouseup="keys.d = false"
-                ontouchstart="keys.d = true"
-                ontouchend="keys.d = false">▶</button>
+                ontouchstart="event.preventDefault(); keys.d = true"
+                ontouchend="event.preventDefault(); keys.d = false">▶</button>
         <button id="downBtn"
                 onmousedown="keys.s = true"
                 onmouseup="keys.s = false"
-                ontouchstart="keys.s = true"
-                ontouchend="keys.s = false">▼</button>
+                ontouchstart="event.preventDefault(); keys.s = true"
+                ontouchend="event.preventDefault(); keys.s = false">▼</button>
         <br>
         <button id="leftBtn"
                 onmousedown="keys.a = true"
                 onmouseup="keys.a = false"
-                ontouchstart="keys.a = true"
-                ontouchend="keys.a = false">◀</button>
+                ontouchstart="event.preventDefault(); keys.a = true"
+                ontouchend="event.preventDefault(); keys.a = false">◀</button>
     </div>
 
     <script src="script.js"></script>
