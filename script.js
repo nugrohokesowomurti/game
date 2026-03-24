@@ -3,7 +3,7 @@ const ctx = canvas.getContext('2d');
 
 //--buat objek gambar--
 const char = new Image();
-char.src = 'zcharacter1.png';
+char.src = 'character1.png';
 
 //--looad Image--
 // char.onload = function(){
